@@ -1,1 +1,9 @@
+# Because I am working with PyCharm
+.DS_Store
+.idea/
+
+# ignore any videos in this folder
+*.mp4
+
+# this is where I will put my API keys:
 keys.py
