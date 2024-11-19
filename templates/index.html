@@ -1,9 +1,9 @@
 <html>
     <head><title>Fruit list</title></head>
     <body>
-        There are {{ fruits | length }} types of fruits.
+        There are {{ new_fruits | length }} types of fruits.
         <ul>
-        {% for fruit in fruits %}
+        {% for fruit in new_fruits %}
             <li>{{fruit.quantity}} {{fruit.name}}</li>
         {% endfor %}
         </ul>
